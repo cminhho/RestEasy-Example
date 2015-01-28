@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd ">
+
+	<!--mongo:mongo host="localhost" port="27017"></mongo:mongo>
+	<mongo:mongo-factory dbname="MusicManager" host="localhost"></mongo:mongo-factory>
+
+	<bean id="mongoTemplate" class="org."></bean -->
+
+	<bean class="com.mkyong.context.SpringApplicationContext"></bean>
+
+	<bean id="customerBo" class="com.mkyong.customer.impl.CustomerBoImpl"></bean>
+	<bean id="userService" class="com.tma.service.UserService"></bean>
+
+</beans>
